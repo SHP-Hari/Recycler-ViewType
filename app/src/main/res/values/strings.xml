@@ -3,4 +3,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permission_not_granted">not granted</string>
+    <string name="failure_permission">permission Failure</string>
+    <string name="call_permission_available">permission available</string>
+    <string name="call_access_required">permission required</string>
+    <string name="ok">OK</string>
+    <string name="call_unavailable">unavailable</string>
+    <string name="call_permission_granted">permission granted</string>
+    <string name="call_permission_denied">permission declined</string>
 </resources>

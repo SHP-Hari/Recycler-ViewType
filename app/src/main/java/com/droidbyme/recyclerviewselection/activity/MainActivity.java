@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private AppCompatButton btnMultipleView;
     private AppCompatButton btnMultipleFrag;
     private AppCompatButton btnOTP;
+    private AppCompatButton sendSms;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnMultipleView.setOnClickListener(this);
         btnMultipleFrag.setOnClickListener(this);
         btnOTP.setOnClickListener(this);
+        sendSms.setOnClickListener(this);
     }
 
     @Override
@@ -70,6 +72,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnTestCode :
                 startActivity(new Intent(MainActivity.this, OtpView.class));
                 break;
+
+            case R.id.btnSend :
+                startActivity(new Intent(MainActivity.this, SendSms.class));
+                break;
         }
     }
 
@@ -82,5 +88,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnMultipleView = (AppCompatButton) findViewById(R.id.btnMultipleView);
         btnMultipleFrag = (AppCompatButton) findViewById(R.id.btnTestFragment);
         btnOTP = (AppCompatButton) findViewById(R.id.btnTestCode);
+        sendSms = (AppCompatButton) findViewById(R.id.btnSend);
     }
 }
