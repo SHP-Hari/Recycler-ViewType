@@ -79,12 +79,21 @@
         android:textAllCaps="false"
         android:textStyle="bold" />
 
+<!--    <android.support.v7.widget.AppCompatButton-->
+<!--        android:id="@+id/btnSend"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="Send SMS"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textStyle="bold" />-->
+
     <android.support.v7.widget.AppCompatButton
-        android:id="@+id/btnSend"
+        android:id="@+id/btnTenses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Send SMS"
+        android:text="Tenses"
         android:textAllCaps="false"
         android:textStyle="bold" />
 
